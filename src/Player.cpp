@@ -4,6 +4,17 @@
 
 using namespace std;
 
+
+void setName(string name){
+    name = name;
+};
+void setMoney(double money){
+    money = money;
+};
+void setGuess(int guess){
+    guess = guess;
+};
+
 string Player::getName() const{
     return name;
 };

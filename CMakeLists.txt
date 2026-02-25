@@ -9,7 +9,7 @@ set( APP_EXECUTABLE TestExample)
 
 include_directories( inc )
 
-ADD_EXECUTABLE(TestExample "src/Midterm.cpp" "src/Player.cpp" )
+ADD_EXECUTABLE(TestExample "src/main.cpp" "src/Player.cpp" )
 
 target_compile_definitions(TestExample PRIVATE TESTING)
 
