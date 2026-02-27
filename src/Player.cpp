@@ -15,6 +15,11 @@ void setGuess(int guess){
     guess = guess;
 };
 
+void setBid(double bid){
+    bid = bid;
+}
+
+
 string Player::getName() const{
     return name;
 };
@@ -26,3 +31,7 @@ int Player::getGuess() const{
 double Player::getMoney() const{
     return money;
 };
+
+double Player::getBid() const{
+    return bid;
+}
