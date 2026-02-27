@@ -3,24 +3,25 @@
 #include "Player.h"
 
 using namespace std;
+//Player:: Player(){};
+//Player:: Player(string name, int guess, double money, double bid): name(name), guess(guess), money(money), bid(bid){};
 
-
-void setName(string name){
-    name = name;
+/*void Player::setName(string nam){
+    name = nam;
 };
-void setMoney(double money){
+void Player::setMoney(double money){
     money = money;
 };
-void setGuess(int guess){
+void Player::setGuess(int guess){
     guess = guess;
 };
 
-void setBid(double bid){
+void Player::setBid(double bid){
     bid = bid;
 }
+*/
 
-
-string Player::getName() const{
+string Player::getName(){
     return name;
 };
 
