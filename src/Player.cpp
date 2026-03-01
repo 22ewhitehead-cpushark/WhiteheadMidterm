@@ -36,3 +36,7 @@ double Player::getMoney() const{
 double Player::getBid() const{
     return bid;
 }
+
+bool Player::getAgain() {
+    return again;
+}
